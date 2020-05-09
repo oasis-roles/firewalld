@@ -1,7 +1,8 @@
 lint: 'yamllint -c tests/yamllint.yml .'
 provisioner:
   name: ansible
-  lint: 'ansible-lint'
+  lint:
+    name: ansible-lint
 platforms:
   - name: instance
     image: centos:7
