@@ -1,7 +1,5 @@
 lint:
-  name: yamllint
-  options:
-    config-file: tests/yamllint.yml
+  name: 'yamllint -c tests/yamllint.yml .'
 provisioner:
   name: ansible
   lint:
