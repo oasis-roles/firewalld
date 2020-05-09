@@ -1,5 +1,4 @@
-lint:
-  name: 'yamllint -c tests/yamllint.yml .'
+lint: 'yamllint -c tests/yamllint.yml .'
 provisioner:
   name: ansible
   lint:
